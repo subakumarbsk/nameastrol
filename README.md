@@ -42,6 +42,100 @@
     <script src="Namejs.js"></script>
 </body>
 </html>
+body{
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-image: url('OIP.jpeg');
+    color: rgb(3, 110, 110);
+}
+.resultcontainer{
+    text-align: center;
+}
+main{
+    background-image: url('OIP.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: azure;
+}
+label{
+    font-size: 20px;
+}
+input{
+    margin-top: 40px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+}
+button{
+    margin-left: 50px;
+    background-color: whitesmoke;
+    color: rgb(83, 184, 83);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 3px red;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+}
+.restbtn{
+    display: none;
+}
+.restbtn:hover{
+    background-color: rgb(191, 93, 36);
+}
+#trybtn:hover{
+    background-color: rgb(217, 239, 52);
+    color: rgb(8, 76, 135);
+}
+
+.outer{
+    margin-left: 40%;
+    border: 3px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: none;
+    box-shadow: inset 10px 10px 25px rgb(0, 255, 4), inset -10px -10px 25px rgb(207, 205, 57) ;
+}
+.outerbad{
+    margin-left: 40%;
+    border: 3px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /*display: none;*/
+    box-shadow: inset 10px 10px 20px red, inset -10px -10px 25px gray ;
+}
+.outervbad{
+    margin-left: 40%;
+    border: 3px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /*display: none;*/
+    box-shadow: inset 10px 10px 25px rgb(79, 75, 75), inset -10px -10px 25px gray ;
+}
+.inner{
+    margin: 13.8%;
+    border: 3px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
 const sampo = document.getElementById("sampo");
 const sampt = document.getElementById("sampt");
 const sampth = document.getElementById("sampth");
